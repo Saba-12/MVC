@@ -108,3 +108,6 @@ C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.MVCWebApplicati
 C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.MVCWebApplication\obj\Debug\KnowledgeHubPortal.MVCWebApplication.csproj.CopyComplete
 C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.MVCWebApplication\obj\Debug\KnowledgeHubPortal.MVCWebApplication.dll
 C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.MVCWebApplication\obj\Debug\KnowledgeHubPortal.MVCWebApplication.pdb
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.MVCWebApplication\bin\KnowledgeHubPortal.Data.dll
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.MVCWebApplication\bin\KnowledgeHubPortal.Data.pdb
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.MVCWebApplication\bin\KnowledgeHubPortal.Data.dll.config

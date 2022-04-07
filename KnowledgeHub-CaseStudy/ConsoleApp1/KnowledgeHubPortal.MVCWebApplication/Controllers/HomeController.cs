@@ -15,14 +15,14 @@ namespace KnowledgeHubPortal.MVCWebApplication.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Knowledege Hub Portal description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact us.";
 
             return View();
         }

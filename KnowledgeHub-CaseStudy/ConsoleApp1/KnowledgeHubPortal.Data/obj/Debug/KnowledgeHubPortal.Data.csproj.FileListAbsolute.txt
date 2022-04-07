@@ -1,0 +1,14 @@
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\bin\Debug\KnowledgeHubPortal.Data.dll.config
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\bin\Debug\KnowledgeHubPortal.Data.dll
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\bin\Debug\KnowledgeHubPortal.Data.pdb
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\bin\Debug\EntityFramework.dll
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\bin\Debug\KnowledgeHubPortal.Domain.dll
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\bin\Debug\KnowledgeHubPortal.Domain.pdb
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\bin\Debug\EntityFramework.xml
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\obj\Debug\KnowledgeHubPortal.Data.csproj.AssemblyReference.cache
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\obj\Debug\KnowledgeHubPortal.Data.csproj.CoreCompileInputs.cache
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\obj\Debug\KnowledgeHubPortal.Data.csproj.CopyComplete
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\obj\Debug\KnowledgeHubPortal.Data.dll
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Data\obj\Debug\KnowledgeHubPortal.Data.pdb
