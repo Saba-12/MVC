@@ -1,0 +1,6 @@
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Domain\bin\Debug\KnowledgeHubPortal.Domain.dll
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Domain\bin\Debug\KnowledgeHubPortal.Domain.pdb
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Domain\obj\Debug\KnowledgeHubPortal.Domain.csproj.AssemblyReference.cache
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Domain\obj\Debug\KnowledgeHubPortal.Domain.csproj.CoreCompileInputs.cache
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Domain\obj\Debug\KnowledgeHubPortal.Domain.dll
+C:\MVC\MVC\KnowledgeHub-CaseStudy\ConsoleApp1\KnowledgeHubPortal.Domain\obj\Debug\KnowledgeHubPortal.Domain.pdb
