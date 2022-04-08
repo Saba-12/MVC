@@ -17,9 +17,30 @@ namespace KnowledgeHubPortal.Data
             return db.Categories.ToList();
         }
 
+        public Category GetCategories(int id)
+        {
+            return db.Categories.Find(id);
+        }
+
+        public bool RemoveCategory(int id)
+        {
+            var cat = db.Categories.Remove(GetCategories(id));
+            if (cat != null)
+                return true;
+            else
+                return false;
+        }
+
         public bool SaveCatagory(Category catagory)
         {
             db.Categories.Add(catagory);
+            int count = db.SaveChanges();
+            return count >= 1;
+        }
+
+        public bool SaveCategory(Category category)
+        {
+            db.Categories.Add(category);
             int count = db.SaveChanges();
             return count >= 1;
         }
