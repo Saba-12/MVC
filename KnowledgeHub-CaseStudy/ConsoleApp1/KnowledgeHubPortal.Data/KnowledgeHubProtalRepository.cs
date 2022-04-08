@@ -12,6 +12,13 @@ namespace KnowledgeHubPortal.Data
     {
         private readonly KnowledgeHubPortalDbContext db = new KnowledgeHubPortalDbContext();
 
+        public void EditCategory(Category category)
+        {
+
+            db.Entry(category).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
+        }
+
         public List<Category> GetCategories()
         {
             return db.Categories.ToList();
@@ -25,6 +32,7 @@ namespace KnowledgeHubPortal.Data
         public bool RemoveCategory(int id)
         {
             var cat = db.Categories.Remove(GetCategories(id));
+            db.SaveChanges();
             if (cat != null)
                 return true;
             else

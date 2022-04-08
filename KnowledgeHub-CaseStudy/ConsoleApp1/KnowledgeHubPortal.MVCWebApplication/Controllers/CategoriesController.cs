@@ -62,8 +62,37 @@ namespace KnowledgeHubPortal.MVCWebApplication.Controllers
 
         public ActionResult DeleteConfirm(int id)
         {
+            Category catagoryToDelete = repo.GetCategories(id);
             bool isDone = repo.RemoveCategory(id);
+
+            TempData["Message"] = $"{catagoryToDelete.Name} has been deleted successfully!";
+
             return RedirectToAction("Index");
+        }
+
+
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var categoryToEdit = repo.GetCategories(id);
+            return View(categoryToEdit);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Category category)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Create", category);
+            }
+
+            //persist the data
+            repo.EditCategory(category);
+
+            TempData["Message"] = $"{category.Name} has been modified successfully";
+            return RedirectToAction("Index");
+
         }
     }
 }

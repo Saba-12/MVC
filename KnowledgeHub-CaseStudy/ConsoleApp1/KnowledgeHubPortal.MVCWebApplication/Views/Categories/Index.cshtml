@@ -5,7 +5,7 @@
 }
 
 <h2>Categories (@Model.Count())</h2>
-
+@TempData["Message"]
 <p>
     @Html.ActionLink("Create New Category", "Create",null, new {@class="btn btn-primary"})
 </p>
