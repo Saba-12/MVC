@@ -18,5 +18,18 @@ namespace KnowledgeHubPortal.MVCWebApplication.Controllers
 
             return View(categories);
         }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+            //return a view for collecting category details from user
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Save()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
