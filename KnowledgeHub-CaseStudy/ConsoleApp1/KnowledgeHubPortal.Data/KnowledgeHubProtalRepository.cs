@@ -83,10 +83,10 @@ namespace KnowledgeHubPortal.Data
 
         public void ApproveArticles(List<int> articleIds)
         {
-           List<Article> articlesToApprove = (from a in db.Articles
-                                             where articleIds.Contains(a.ArticleID)
-                                             select a).ToList();
-            foreach(var a in articlesToApprove)
+            List<Article> articlesToApprove = (from a in db.Articles
+                                               where articleIds.Contains(a.ArticleID)
+                                               select a).ToList();
+            foreach (var a in articlesToApprove)
             {
                 a.IsApproved = true;
             }
@@ -98,9 +98,13 @@ namespace KnowledgeHubPortal.Data
             List<Article> articlesToReject = (from a in db.Articles
                                               where articleIds.Contains(a.ArticleID)
                                               select a).ToList();
-
             db.Articles.RemoveRange(articlesToReject);
             db.SaveChanges();
+        }
+
+        public List<Article> GetArticlesForApprove()
+        {
+            return db.Articles.Include("Catagory").Where(a => !a.IsApproved).ToList();
         }
     }
 }
