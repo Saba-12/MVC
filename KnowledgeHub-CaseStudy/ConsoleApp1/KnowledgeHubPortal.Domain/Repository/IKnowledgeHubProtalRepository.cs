@@ -16,12 +16,20 @@ namespace KnowledgeHubPortal.Domain.Repository
         Category GetCategories(int id);
         bool RemoveCategory(int id);
         void EditCategory(Category category);
+        object GetArticles();
         #endregion
 
 
         #region Articles Management
+        void SubmitArticle(Article article);
 
-        bool IsSubmit(Article article);
+        List<Article> BrowseArticles();
+
+        void ApproveArticles(List<int> articleIds);
+
+        void RejectArticles(List<int> articleIds);
+        //bool IsSubmit(Article article);
+        //bool SaveArticle(Article article);
         #endregion
     }
 }
